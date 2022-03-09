@@ -1,0 +1,36 @@
+{
+  "author": "panguanghua(17101827@suning.com)",
+  "description": "Spring开发课程",
+  "extension": "",
+  "generator": "site",
+  "isbn": "",
+  "links": {
+      "sharing": {
+          "all": "",
+          "facebook": "",
+          "google": "",
+          "twitter": "",
+          "weibo": ""
+      },
+      "sidebar": {
+          "Spring开发实战与最佳实践": "http://www.suning.com"
+      }
+  },
+  "output": "",
+  "pdf": {
+      "fontSize": 12,
+      "footerTemplate": "",
+      "headerTemplate": "",
+      "margin": {
+          "bottom": 36,
+          "left": 62,
+          "right": 62,
+          "top": 36
+      },
+      "pageNumbers": true,
+      "paperSize": "a4"
+  },
+  "plugins": [],
+  "title": "Spring开发实战与最佳实践",
+  "variables": {}
+}

@@ -66,3 +66,17 @@ public class CoreConfig {
 - lazy mode
 - init mehtod
 - destruction method
+
+#### 生命周期
+##### 创建
+1. 读取原始类，解析成BeanDefinition
+2. 初始化实例，推断构造方法（默认无参）和入参
+3. 对象
+4. 对象的属性填充
+5. 初始化
+   1. 初始化前（@PostConstruct）
+   2. 初始化后（afterPropertiesSet）
+6. 生成AOP代理对象
+7. 放入容器
+8. 实例化Bean，并放入单例池
+##### 销毁
